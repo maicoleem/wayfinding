@@ -11,7 +11,7 @@ class MapActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_map)
-
+        //implementar binding
         customMapView = findViewById(R.id.customMapView)
 
         val setLocationButton: Button = findViewById(R.id.button_set_location)
